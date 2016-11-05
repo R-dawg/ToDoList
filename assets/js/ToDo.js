@@ -1,1 +1,3 @@
-alert("yay");
+$("li").click(function(){
+	$(this).toggleClass("completed");
+});
